@@ -1,0 +1,12 @@
+/* Making the header, main, and footer show different background colors for visibility */
+header {
+    background-color: blue;
+}
+
+main {
+    background-color: brown;
+}
+
+footer {
+    background-color: bisque;
+}

@@ -1,3 +1,7 @@
+* {
+    display: inline-block;
+}
+
 /* Making the header, main, and footer show different background colors for visibility */
 header {
     background-color: blue;
@@ -9,4 +13,12 @@ main {
 
 footer {
     background-color: bisque;
+}
+
+nav {
+    background-color: antiquewhite;
+}
+
+section {
+    background-color: aqua;
 }

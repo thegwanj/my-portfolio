@@ -1,0 +1,4 @@
+red = row
+blue = column
+yellow = element inside element
+white = undecided

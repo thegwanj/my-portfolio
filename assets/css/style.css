@@ -1,29 +1,38 @@
-/* * {
-    display: inline-block;
-} */
+body {
+    background-color: #BFD7EA;
+}
 
 /* Making the header, main, and footer show different background colors for visibility */
 
 /* Styling for the items inside the header */
 header {
-    background-color: blue;
+    background-color: #0B3954;
     display: inline-flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
 header div {
-    background-color: aquamarine;
-    margin-right: 50%;
+    background-color: #087E8B;
     padding-right: 10px;
+    padding-left: 10px;
+    height: 80px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+header div h1 {
+    text-align: center;
 }
 
 nav {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: antiquewhite;
+    background-color: #087E8B;
     margin: 2% auto;
+    padding: 18px;
+    border-radius: 10px;
 }
 
 nav a {
@@ -40,9 +49,12 @@ div img {
 }
 
 /* Styling for the main sections */
+section {
+    background-color: #9CD08F;
+}
+
 section > *{
     display: inline-flex;
-    background-color: aqua;
     flex-direction: row;
     margin: 2% auto;
 }
@@ -54,5 +66,5 @@ section h2 {
 
 /* Footer */
 footer {
-    background-color: bisque;
+    background-color: #0B3954;
 }

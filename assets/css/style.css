@@ -8,10 +8,6 @@ header {
     display: inline-flex;
 }
 
-main {
-    background-color: brown;
-}
-
 footer {
     background-color: bisque;
 }

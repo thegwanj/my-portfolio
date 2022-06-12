@@ -8,16 +8,31 @@
 header {
     background-color: blue;
     display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header div {
+    background-color: aquamarine;
+    margin-right: 50%;
+    padding-right: 10px;
 }
 
 nav {
     display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: antiquewhite;
     margin: 2% auto;
-    align-items: center;
 }
 
+nav a {
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Styling for banner */
 div img {
     margin: 0 auto;
     width: 100%;

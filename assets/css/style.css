@@ -8,13 +8,22 @@ header {
     display: inline-flex;
 }
 
-footer {
-    background-color: bisque;
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    margin: 2% auto;
+    align-items: center;
 }
 
-nav {
-    background-color: antiquewhite;
+div img {
+    margin: 0 auto;
+    width: 100%;
+    height:200px;
+}
 
+footer {
+    background-color: bisque;
 }
 
 section > *{

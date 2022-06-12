@@ -3,6 +3,8 @@
 } */
 
 /* Making the header, main, and footer show different background colors for visibility */
+
+/* Styling for the items inside the header */
 header {
     background-color: blue;
     display: inline-flex;
@@ -22,14 +24,20 @@ div img {
     height:200px;
 }
 
-footer {
-    background-color: bisque;
-}
-
+/* Styling for the main sections */
 section > *{
     display: inline-flex;
     background-color: aqua;
     flex-direction: row;
     margin: 2% auto;
-    justify-content: space-between;
+}
+
+section h2 {
+    border-right: 2px solid black;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: bisque;
 }

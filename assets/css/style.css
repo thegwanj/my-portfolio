@@ -1,10 +1,11 @@
-* {
+/* * {
     display: inline-block;
-}
+} */
 
 /* Making the header, main, and footer show different background colors for visibility */
 header {
     background-color: blue;
+    display: inline-flex;
 }
 
 main {
@@ -17,8 +18,13 @@ footer {
 
 nav {
     background-color: antiquewhite;
+
 }
 
-section {
+section > *{
+    display: inline-flex;
     background-color: aqua;
+    flex-direction: row;
+    margin: 2% auto;
+    justify-content: space-between;
 }

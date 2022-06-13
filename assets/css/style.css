@@ -59,6 +59,10 @@ section > *{
     margin: 2% auto;
 }
 
+section p {
+    width: 80%;
+}
+
 section h2 {
     border-right: 2px solid black;
     padding: 5px;
